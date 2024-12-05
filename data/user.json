@@ -1,0 +1,18 @@
+{
+  "id": 1,
+  "name": "Jan Broersen",
+  "obligations": [
+    "Machine Learning"
+  ],
+  "interests": [
+    "Artificial Intelligence",
+    "Logic",
+    "Norms",
+    "Theories of Action and Agency",
+    "Machine ethics"
+  ],
+  "preferredSpeakers": [
+    "Dr. Catherine Miller",
+    "Prof. Brian Lee"
+  ]
+}

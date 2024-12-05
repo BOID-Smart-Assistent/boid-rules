@@ -1,0 +1,82 @@
+{
+  "schedule": [
+    {
+      "date": "2024-11-30",
+      "timeslots": [
+        {
+          "id": 1,
+          "presentations": [
+            {
+              "id": 6,
+              "name": "Prof. Brian Lee",
+              "topic": "Advanced Machine Learning"
+            },
+            {
+              "id": 5,
+              "name": "Dr. Alice Johnson",
+              "topic": "Introduction to AI"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "presentations": [
+            {
+              "id": 8,
+              "name": "Mr. David Green",
+              "topic": "Blockchain for Beginners"
+            },
+            {
+              "id": 7,
+              "name": "Dr. Catherine Miller",
+              "topic": "Quantum Computing Basics"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "presentations": [
+            {
+              "id": 10,
+              "name": "Mr. David Green",
+              "topic": "Data Science with Python"
+            },
+            {
+              "id": 9,
+              "name": "Prof. Brian Lee",
+              "topic": "Natural Language Processing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-12-01",
+      "timeslots": [
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        }
+      ]
+    },
+    {
+      "date": "2024-12-02",
+      "timeslots": [
+        {
+          "id": 7
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        }
+      ]
+    }
+  ]
+}

@@ -102,7 +102,6 @@ def get_desire_offline() -> str:
     #     messages.append(ChatMessage(role=MessageRole.USER, content=f"Now convert these keywords {','.join(config.user.interests)} into desires."))
 
     config.llm.temperature = 0.2
-    a = config.llm.chat
     response = config.llm.chat(messages=[ChatMessage(role=MessageRole.SYSTEM, content=system_prompt), ChatMessage(role=MessageRole.USER, content=user_prompt)])
 
     return response.message.content

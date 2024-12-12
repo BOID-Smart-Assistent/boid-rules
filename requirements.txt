@@ -6,7 +6,7 @@ anyio==4.6.2.post1
 attrs==24.2.0
 beautifulsoup4==4.12.3
 betterproto==1.2.5
-boid-model @ git+ssh://git@github.com/BOID-Smart-Assistent/BOID-model.git@a6f2d95569bae96a8aba0cc1c7d7b7833a0b9b26
+boid-model @ git+https://github.com/BOID-Smart-Assistent/BOID-model.git@v0.0.25
 certifi==2024.8.30
 charset-normalizer==3.4.0
 click==8.1.7

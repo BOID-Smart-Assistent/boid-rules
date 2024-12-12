@@ -1,0 +1,29 @@
+services:
+  llm:
+    container_name: boid-llm
+    build:
+      context: .
+      dockerfile: ../docker/llm/Dockerfile
+#    depends_on:
+#      - ollama
+    volumes:
+      - .:/app
+    command: python main.py
+    networks:
+      - boid
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - 11434:11434
+    volumes:
+      - .:/code
+      - ./ollama/ollama:/root/.ollama
+    container_name: boid-ollama
+    pull_policy: always
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    networks:
+      - boid
+
+networks:
+  boid:

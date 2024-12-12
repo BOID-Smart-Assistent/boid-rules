@@ -12,8 +12,7 @@ class Config:
     online_mode = os.getenv('ONLINE_MODE', 'False').lower() in ('true', '1', 't')
     websocket_url = os.getenv('WEBSOCKET_URL')
     debug = os.getenv('DEBUG_MODE', 'False').lower() in ('true', '1', 't')
-    client = Client(host=os.getenv('LLM_HOST'))
-    llm = Ollama(model=os.getenv('LLM_MODEL'))
+    llm = Ollama(model=os.getenv('LLM_MODEL'), base_url=os.getenv('LLM_HOST'))
 
     schedule: Schedule
     user: User
